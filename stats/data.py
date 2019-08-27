@@ -40,4 +40,4 @@ games = games.fillna(' ')
 # replcae the unstructured 'type' column with a Category-column from pandas
 games.loc[:, 'type'] = pd.Categorical(games.loc[:, 'type'])
 
-print(games.head())
+# print(games.head())
